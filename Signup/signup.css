@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+}
+
+.logoh1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+h1 {
+    color: rgb(255, 123, 0);
+}
+
+.spanh1 {
+    color: rgb(255, 123, 0);
+    font-weight: 100;
+}
+.sec1{
+    padding-top: 120px;
+}
+.contenair{
+    width: 635px;
+    height: 540px;
+    margin: 0px 631.5px 40px;
+}
+label{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0px 12px 0px 0px;
+    width: 240px;
+    height: 40px;
+}
+.select-country{
+    width: 380px;
+    height: 40px;
+    padding: 0px 11px;
+}
+.radio-input{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 16px 0px 16px;
+    
+}
+.radio-input span{
+    padding: 0px 8px;
+}
+.item-form{
+    width: 635px;
+    height: 40px;
+    margin: 0px 0px 16px;
+}
+input[type="text"]{
+    width: 380px;
+    height: 40px;
+    padding: 5px 11px;
+    border: 2px solid #d9d9d9;
+}
+input[type="password"]{
+    width: 380px;
+    height: 40px;
+    padding: 5px 11px;
+    border: 2px solid #d9d9d9;
+}
+input[type="submit"]{
+    width: 168px;
+    height: 40px;
+    padding: 0px 11px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+}
